@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #226ec6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** CARD **/
+.card {
+    background-color: #ffffff;
+    display: flex;
+    width: 30em;
+    height: 30em;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+   color: #226ec6;; 
+   margin-top: 0.5em;
+}
+
+.box-color {
+    width: 25em;
+    height: 40em;
+    margin: 0.5em;
+    background-color: #b1b1b1;
+}
+
+.output {
+    margin-top: 0.5em;
+    width: 25em;
+    height: 5em;
+    border: 1px solid #808080;
+    text-align: center;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 1em 3em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btn-copy {
+    background-color: #03bd41;
+}
+
+.btn-copy:hover {
+    background-color: #67b681;
+}
+
+.btn-generate {
+    background-color: #226ec6;
+}
+
+.btn-generate:hover {
+    background-color: #5388c5;
+}
+
+.box-btn {
+    margin: 1.5em;
+    width: 25em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
